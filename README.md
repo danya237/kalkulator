@@ -12,3 +12,6 @@ kjilde: https://poznayu.com/pishem-kalkulyator-na-javascript-i-html/
 
 11:00 ferdig med HTML for budget tracker
 ![alt text](image.png)
+
+jeg viste ikke resultatene fra CSS, så spørte jeg GPT hvorfor ser jeg ikke. Jeg gjorde feil med ":", skrev det ikke.
+
