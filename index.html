@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator</title>
+    <title>Budsjettkalkulator</title>
 
 
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="modul" src="js/script.js"></script>
 </head>
 <body>
-    <div id="calculator">
-        <input type="text" id="display" disabled>
-        <div id="buttons">
-            <div class="button">7</div>
-            <div class="button">8</div>
-            <div class="button">9</div>
-            <div class="button">/</div>
-            <div class="button">4</div>
-            <div class="button">5</div>
-            <div class="button">6</div>
-            <div class="button">*</div>
-            <div class="button">1</div>
-            <div class="button">2</div>
-            <div class="button">3</div>
-            <div class="button">-</div>
-            <div class="button">0</div>
-            <div class="button">.</div>
-            <div class="button">=</div>
-            <div class="button">+</div>
-        </div>
-    </div>
+<div id ="app">
+    <table class ="budget-tracker">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="enteries">        
+                    <tr>
+                        <td>
+                            <input class="input input-date" type="date">
+                        </td>
+                        <td>
+                            <input class="input input-date" type="text" placeholder="Add a description (wages, bills, etc.)">)">
+                        </td>
+                        <td>
+                            <select class="input input-type">
+                                <option value="income">Income</option>
+                                <option value="expense">Expense</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" class="input input-amount" placeholder="Amount">
+                        </td>
+                        <td>
+                            <button type="button" class="delete-entry">&#10005;</button>
+                        </td>
+                    </tr>
+    </table>
+</div>
 </body>
 </html>
