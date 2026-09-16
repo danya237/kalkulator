@@ -15,3 +15,5 @@ kjilde: https://poznayu.com/pishem-kalkulyator-na-javascript-i-html/
 
 jeg viste ikke resultatene fra CSS, så spørte jeg GPT hvorfor ser jeg ikke. Jeg gjorde feil med ":", skrev det ikke.
 
+13:50 Startet med JS utvikling
+12:50 Ferdig med JS 16sep
